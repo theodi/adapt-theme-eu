@@ -1,0 +1,24 @@
+{
+    "name": "adapt-theme-eu",
+    "repository": "git@github.com:theodi/adapt-theme-eu.git",
+    "framework": "^2.0.0",
+    "version": "0.4.1",
+    "homepage": "https://github.com/theodi/adapt-theme-eu/",
+    "issues": "https://github.com/theodi/adapt-theme-eu/issues",
+    "displayName": "EDP",
+    "theme": "EDP",
+    "description": "European data portal theme",
+    "main": "js/eu.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-theme"
+    ],
+    "liceneu": "GPLv3",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}

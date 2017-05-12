@@ -77,7 +77,7 @@
 
 		&.nth-child-even{
 			.menu-item-inner{
-				background-color: @odi-color-one;
+				background-color: @menu-item-color;
 				margin-left:2%;
 		        .dir-rtl & {
 		            margin-right:2%;
@@ -87,7 +87,7 @@
 
 		&.nth-child-odd {
 			.menu-item-inner {
-				background-color: @odi-color-one;
+				background-color: @menu-item-color;
 				margin-right:2%;
                 .dir-rtl & {
                     margin-left:2%;
@@ -96,12 +96,12 @@
 		}
 		&.nth-child-3, &.nth-child-7, &.nth-child-11 {
 			.menu-item-inner {
-				background-color: @odi-color-one;
+				background-color: @menu-item-color;
 			}
 		}
 		&.nth-child-4, &.nth-child-8, &.nth-child-12 {
 			.menu-item-inner {
-				background-color: @odi-color-one;
+				background-color: @menu-item-color;
 			}
 		}
 
@@ -195,17 +195,17 @@
 		
 		button {
 			padding: @button-padding-top (@button-padding-right*2) @button-padding-bottom (@button-padding-left*2);
-			background-color:darken(@menu-button-color, 20%);
-			color:@button-text-color;
+			background-color:@menu-button-color;
+			color:@menu-button-text-color;
 			
 			&:hover {
-				background-color:darken(@menu-button-color, 30%);
-				color:@button-text-color-hover;
+				background-color:darken(@menu-button-color, 20%);
+				color:@menu-button-text-color-hover;
 			}
 			
 			&.visited {
-				background-color:darken(@menu-button-color, 20%);
-				color:@button-text-color-disabled;
+				background-color:@menu-button-color;
+				color:@menu-button-text-color-disabled;
 			}
 		}
 	}

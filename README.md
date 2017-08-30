@@ -1,4 +1,4 @@
-# adapt-theme-dlab
+# adapt-theme-eu
 
 This theme is adapted from the adapt vanilla theme
 
